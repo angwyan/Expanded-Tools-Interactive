@@ -1,0 +1,98 @@
+body{
+	font-size: 20px;
+	 background-color: #95CDD9;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: 
+}
+
+.LeftTriangle {  
+  width: 0;  
+  height: 0;  
+  float: left;  
+  border-top: 260px solid transparent;  
+  border-right: 520px solid #2D3239;  
+  border-bottom: 260px solid transparent; 
+  	transform:translateX(30px) translateY(50px) rotate(50deg); 
+     -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+  transition: width 2s, height 2s, transform 2s;
+}  
+
+a#container: hover {
+  width: 300px;
+  height: 300px;
+  -webkit-transform: rotate(360deg); 
+  transform: rotate(360deg);
+}
+.square{
+	
+	width: 500px;
+	height: 600px;
+	background-color: #FFFFFF;
+		padding: 50px;
+	margin: 50px;
+	transform:translateX(700px) translateY(10px);
+     -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.grid {
+    
+    background-image:
+        linear-gradient(rgba(255,255,255,.3) 3px, transparent 0),
+        linear-gradient(90deg, rgba(255,255,255,.3) 3px, transparent 0),
+        linear-gradient(black 3px, transparent 0),
+        linear-gradient(90deg, black 3px, transparent 0);
+    background-size: 55px 55px, 15px 15px, 75px 75px, 75px 75px;
+    width: 600px;
+    height: 650px;
+    transform:translateX(720px) translateY(-640px);
+       -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+  transition: width 2s, height 2s, transform 2s;
+
+}
+
+ .circle{
+  width: 50px;
+  height: 50px;
+  background-color: #FF0000;
+  border-radius: 50%;
+  transform:translateX(260px) translateY(-1150px);
+     -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.LeftTriangle-1 {  
+  width: 0;  
+  height: 0;  
+  float: left;  
+  border-top: 50px solid transparent;  
+  border-right: 100px solid #CCDADA;  
+  border-bottom: 50px solid transparent; 
+    transform:translateX(-200px) translateY(320px) rotate(130deg); 
+
+     -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+  transition: width 2s, height 2s, transform 2s;
+}  
+
+
+.circle-1 {
+      width:500px;
+        height:250px;
+        border-radius:250px 250px 0 0;
+        background-color:#FFE337;
+  transform:translateX(920px) translateY(-1190px) rotate(270deg);
+     -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+  transition: width 2s, height 2s, transform 2s;
+}
+
+
+
+
+
+
+

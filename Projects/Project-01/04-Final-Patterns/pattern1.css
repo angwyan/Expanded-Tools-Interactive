@@ -1,0 +1,109 @@
+
+#position-relative{
+	position: relative;
+	top: 60px;
+	left: 60px;
+}
+
+.position-fixed{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+
+.circle{
+	
+	width: 200px;
+	height: 200px;
+    border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #D5E1F8;
+	background-color: #FFE1F6;
+	    border-radius: 50%;
+    	padding: 100px;
+	margin: 455px;
+}
+
+.CrescentMoon{  
+   width:200px;  
+   height:200px;   
+   background-color: #FFE1F6;  
+   border-radius:50%;  
+   box-shadow: 40px 40px 0 0 #FBF7F6;  
+   transform:translateX(570px) translateY(-780px);
+   -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+  transition: width 2s, height 2s, transform 2s;
+ }  
+
+
+.circle-1{
+	
+	width: 200px;
+	height: 200px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #FBE2EF;
+	background-color: #FEF8E9;
+	    border-radius: 50%;
+    	padding: 100px;
+	margin: 455px;
+}
+
+.CrescentMoon-1{  
+   width:200px;  
+   height:200px;   
+   background-color: #FEF8E9;  
+   border-radius:50%;  
+   box-shadow: 40px 40px 0 0 #D6CCEB;  
+   transform:translateX(570px) translateY(-2890px);
+    transform:translateX(570px) translateY(-2890px);
+   -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+  transition: width 2s, height 2s, transform 2s;
+ }  
+
+.circle-2{
+	
+	width: 200px;
+	height: 200px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #FBE2EF;
+	background-color: #D8EFFB;
+	    border-radius: 50%;
+    	padding: 100px;
+	margin: 455px;
+}
+
+.CrescentMoon-2{  
+   width:200px;  
+   height:200px;   
+   background-color: #D8EFFB;  
+   border-radius:50%;  
+   box-shadow: 40px 40px 0 0 #FFFDAB;  
+   transform:translateX(570px) translateY(-2130px);
+   transform:translateX(570px) translateY(-2130px);
+   -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+  transition: width 2s, height 2s, transform 2s;
+ }  
+
+#container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.circle-transparent{
+	width: 30px;
+	height: 30px;
+	background-color:#D8EFFB;
+	border-radius: 70%;
+	margin: 80px;
+}
+
+a#container2 :hover{
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
