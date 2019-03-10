@@ -2,6 +2,9 @@ body{
 	font-size: 20px;
 }
 
+ .container:hover & {
+    transform: translateX(200px);
+  }
 
 .box {
   background: #C1B3E8;
@@ -14,6 +17,7 @@ body{
   width: 65px;
   position: fixed;
    transform:translateX(900px) translateY(250px) rotate(45deg);
+     transition: all 1.5s ease-out;
 }
 .box:hover {
   background: #C1B3E8;
@@ -30,6 +34,7 @@ body{
 	margin-top: 100px;
 	transform:rotate(45deg);
 	opacity: 0.9;
+    transition: all 1.5s ease-in;
 	
 	
 }
@@ -40,6 +45,7 @@ body{
       background: #efd9d5;
       transform: translateY(-300px);
       opacity: 0.7;
+       transition: all 1.5s ease;
      
     }
 
@@ -68,8 +74,8 @@ body{
  border-bottom-right-radius: 60px; 
  
 transform:translateX(-750px) translateY(200px);	
-   opacity: 0.6;
-	
+   opacity: 0.6;	
+    
 }
 
 #container2{
@@ -79,6 +85,7 @@ transform:translateX(-750px) translateY(200px);
 	margin-top: 20px;
     display:block;
     position: absolute;
+
 }
 
 
