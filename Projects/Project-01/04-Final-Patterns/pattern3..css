@@ -3,10 +3,17 @@ body{
 }
 
 .container{
+		position:fixed;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: 
+
+}
+.position-fixed{
+	position:fixed;
+	top: 60px;
+	left: 0px;
 }
 
 .square-1{
@@ -131,6 +138,7 @@ body{
     	margin-top: -2100px;
 
     }
+
 a#container :hover{
     background-color: #E97177;
      transition: background-color 1s ease-out;
@@ -163,4 +171,32 @@ a#container3 :hover{
     transition-timing-function: ease-out;
     transition-delay: 0s;
 }
+
+#container-2{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.circle-transparent{
+	width: 30px;
+	height: 30px;
+	background-color:#E97177;
+	border-radius: 50%;
+	margin: 80px;
+  animation-name: flash;
+  animation-duration: 1s;
+}
+
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+
 
