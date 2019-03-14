@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #DADADA;
+}
+.square{
+
+	width: 890px;
+	height: 300px;
+	background-color: #DCF4F3;
+	display: inline-block;
+	transform:translateX(0px) translateY(0px);
+	opacity: 0.8;
+}
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+	border: solid black 5px;
+}
